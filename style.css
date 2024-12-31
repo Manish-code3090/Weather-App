@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #00695c, #00a688); /* Gradient colors matching the card */
+}
+
+
+        .card {
+    background-color: #00897b;
+    color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Original shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+
+.card:hover {
+    transform: translateY(-10px);  /*Slight lift */
+    box-shadow: 0px 8px 16px rgb(10, 10, 10); /* Enhanced shadow on hover */
+}
+
+
+        h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .location {
+            margin: 20px 0;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+    
+
+        .coordinates {
+            margin: 10px 0;
+            font-size: 14px;
+            font-family: monospace;
+        }
+
+        .sun-cloud {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        margin-top: 0%;  
+        }
+
+        .Icon{
+            margin-top: 0%;
+            width: 120px;
+        }
